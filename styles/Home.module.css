@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.inputbox {
+  width: 35%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputbox>input {
+  font-size: 12px;
+  padding: 0.8em 1.5em 0.8em 2em;
+  background-color: rgb(235, 236, 238);
+  border: none;
+  border-radius: 4px;
+}
+
+.inputbox>input:focus {
+  outline: none;
+  box-shadow: -3px 0 0 rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tabela {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  margin-top: 1em;
+  background-color: #eee;
+  border-radius: 10px 10px 0 0;
+}
+
+.error {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  margin-top: 1em;
+  background-color: rgb(255, 233, 233);
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.tabela th {
+  width: 300px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(61, 57, 57);
+  border-bottom: 2px solid #ddd;
+  height: 30px;
+}
+
+.tabela td {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: rgb(111, 110, 110);
+  height: 30px;
+}
+
+.button {
+  width: 300px;
+  height: 35px;
+  margin-top: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
